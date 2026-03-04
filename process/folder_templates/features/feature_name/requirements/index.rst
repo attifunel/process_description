@@ -19,7 +19,7 @@ Feature Requirements
    :id: doc__feature_name_requirements
    :status: draft
    :safety: ASIL_B
-   :security: NO
+   :security: YES
    :realizes: wp__requirements_feat
    :tags: template
 
@@ -29,7 +29,7 @@ Feature Requirements
     - Modify ``Your Feature Name`` to be your Feature Name
     - Modify ``id`` to be your Feature Name in upper snake case preceded by ``doc__`` and followed by ``_requirements``
     - Adjust ``status`` to be ``valid``
-    - Adjust ``safety`` and ``tags`` according to your needs
+    - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 <Headlines (for the list of requirements if structuring is needed)>
 ===================================================================
@@ -37,7 +37,7 @@ Feature Requirements
 .. feat_req:: Some Title
    :id: feat_req__feature_name__some_title
    :reqtype: Process
-   :security: NO
+   :security: YES
    :safety: ASIL_B
    :satisfies: stkh_req__requirements__template
    :valid_from: v0.0.1
@@ -52,7 +52,7 @@ Feature Requirements
 .. aou_req:: Some Other Title
    :id: aou_req__feature_name__some_other_title
    :reqtype: Process
-   :security: NO
+   :security: YES
    :safety: ASIL_B
    :status: invalid
 
